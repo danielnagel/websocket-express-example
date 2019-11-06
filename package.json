@@ -1,0 +1,23 @@
+{
+  "name": "ws-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "npm i",
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node dist/server/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/ws": "^6.0.3",
+    "typescript": "^3.7.2"
+  }
+}
